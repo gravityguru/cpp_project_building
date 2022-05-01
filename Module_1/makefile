@@ -1,4 +1,3 @@
-
 calculator: main.o addition.o division.o print_result.o
         g++ main.o addition.o division.o print_result.o -o calculator
 

@@ -3,6 +3,8 @@ float addition(float, float);
 float division(float, float);
 void print_result(std::string, float);
 
+// Run in terminal 
+//g++ main.cpp addition.cpp division.cpp print_result.cpp -o calculator
 
 main(){
     float first_no, second_no, result_add, result_div;

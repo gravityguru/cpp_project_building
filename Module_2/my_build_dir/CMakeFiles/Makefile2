@@ -60,6 +60,44 @@ CMAKE_SOURCE_DIR = /home/guru/Desktop/cpp_soft_building/cpp_project_building/Mod
 CMAKE_BINARY_DIR = /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir
 
 #=============================================================================
+# Target rules for target CMakeFiles/duplicate_calculator.dir
+
+# All Build rule for target.
+CMakeFiles/duplicate_calculator.dir/all: CMakeFiles/my_math.dir/all
+CMakeFiles/duplicate_calculator.dir/all: CMakeFiles/my_print.dir/all
+	$(MAKE) -f CMakeFiles/duplicate_calculator.dir/build.make CMakeFiles/duplicate_calculator.dir/depend
+	$(MAKE) -f CMakeFiles/duplicate_calculator.dir/build.make CMakeFiles/duplicate_calculator.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles --progress-num=3,4 "Built target duplicate_calculator"
+.PHONY : CMakeFiles/duplicate_calculator.dir/all
+
+# Include target in all.
+all: CMakeFiles/duplicate_calculator.dir/all
+
+.PHONY : all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/duplicate_calculator.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles 7
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/duplicate_calculator.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles 0
+.PHONY : CMakeFiles/duplicate_calculator.dir/rule
+
+# Convenience name for target.
+duplicate_calculator: CMakeFiles/duplicate_calculator.dir/rule
+
+.PHONY : duplicate_calculator
+
+# clean rule for target.
+CMakeFiles/duplicate_calculator.dir/clean:
+	$(MAKE) -f CMakeFiles/duplicate_calculator.dir/build.make CMakeFiles/duplicate_calculator.dir/clean
+.PHONY : CMakeFiles/duplicate_calculator.dir/clean
+
+# clean rule for target.
+clean: CMakeFiles/duplicate_calculator.dir/clean
+
+.PHONY : clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/calculator.dir
 
 # All Build rule for target.
@@ -104,7 +142,7 @@ clean: CMakeFiles/calculator.dir/clean
 CMakeFiles/my_math.dir/all:
 	$(MAKE) -f CMakeFiles/my_math.dir/build.make CMakeFiles/my_math.dir/depend
 	$(MAKE) -f CMakeFiles/my_math.dir/build.make CMakeFiles/my_math.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles --progress-num=3,4,5 "Built target my_math"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles --progress-num=5,6,7 "Built target my_math"
 .PHONY : CMakeFiles/my_math.dir/all
 
 # Include target in all.
@@ -141,7 +179,7 @@ clean: CMakeFiles/my_math.dir/clean
 CMakeFiles/my_print.dir/all:
 	$(MAKE) -f CMakeFiles/my_print.dir/build.make CMakeFiles/my_print.dir/depend
 	$(MAKE) -f CMakeFiles/my_print.dir/build.make CMakeFiles/my_print.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles --progress-num=6,7 "Built target my_print"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles --progress-num=8,9 "Built target my_print"
 .PHONY : CMakeFiles/my_print.dir/all
 
 # Include target in all.

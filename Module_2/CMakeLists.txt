@@ -26,8 +26,9 @@ main.cpp)
 
 # now we have to link the ibraries. Using target_link_libraries.
 
-target_link_libraries(calculator my_math my_print)
+target_link_libraries(calculator  my_math my_print) ## my_math and my_print are dependency for the calculator target.
 
+# target_link_libraries their own properties like PUBLIC, INTERFACE PRIVATE etc.
 
 # guru@guru:~/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir$ make
 
@@ -53,3 +54,11 @@ target_link_libraries(calculator my_math my_print)
 # guru@guru:~/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir$ 
 
 # Libraries and executables are called as targets.
+
+# Q/A
+# Can we add more han one executabl in CMakeLists file?  Yes. Copy and paste add executable file.
+add_executable(duplicate_calculator
+main.cpp)
+target_link_libraries(duplicate_calculator  my_math my_print)
+
+# before execution remove all files from my_buil_dir. Use command rm -rf *

@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/addition.h
+
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/division.h
+
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/main.cpp
+iostream
+-
+addition.h
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/addition.h
+division.h
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/division.h
+print_result.h
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/print_result.h
+
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/print_result.h
+

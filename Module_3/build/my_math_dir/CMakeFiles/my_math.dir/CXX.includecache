@@ -1,0 +1,12 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/addition.cpp
+
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/division.cpp
+

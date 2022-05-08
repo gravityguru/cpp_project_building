@@ -57,64 +57,64 @@ include my_math_dir/CMakeFiles/my_math.dir/progress.make
 # Include the compile flags for this target's objects.
 include my_math_dir/CMakeFiles/my_math.dir/flags.make
 
-my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o: my_math_dir/CMakeFiles/my_math.dir/flags.make
-my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o: ../my_math_dir/addition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o"
-	cd /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/my_math_dir && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_math.dir/addition.cpp.o -c /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/addition.cpp
+my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o: my_math_dir/CMakeFiles/my_math.dir/flags.make
+my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o: ../my_math_dir/src/addition.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o"
+	cd /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/my_math_dir && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_math.dir/src/addition.cpp.o -c /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/src/addition.cpp
 
-my_math_dir/CMakeFiles/my_math.dir/addition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_math.dir/addition.cpp.i"
-	cd /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/addition.cpp > CMakeFiles/my_math.dir/addition.cpp.i
+my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_math.dir/src/addition.cpp.i"
+	cd /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/src/addition.cpp > CMakeFiles/my_math.dir/src/addition.cpp.i
 
-my_math_dir/CMakeFiles/my_math.dir/addition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_math.dir/addition.cpp.s"
-	cd /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/addition.cpp -o CMakeFiles/my_math.dir/addition.cpp.s
+my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_math.dir/src/addition.cpp.s"
+	cd /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/src/addition.cpp -o CMakeFiles/my_math.dir/src/addition.cpp.s
 
-my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o.requires:
+my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o.requires:
 
-.PHONY : my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o.requires
+.PHONY : my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o.requires
 
-my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o.provides: my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o.requires
-	$(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o.provides.build
-.PHONY : my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o.provides
+my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o.provides: my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o.requires
+	$(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o.provides.build
+.PHONY : my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o.provides
 
-my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o.provides.build: my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o
+my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o.provides.build: my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o
 
 
-my_math_dir/CMakeFiles/my_math.dir/division.cpp.o: my_math_dir/CMakeFiles/my_math.dir/flags.make
-my_math_dir/CMakeFiles/my_math.dir/division.cpp.o: ../my_math_dir/division.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object my_math_dir/CMakeFiles/my_math.dir/division.cpp.o"
-	cd /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/my_math_dir && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_math.dir/division.cpp.o -c /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/division.cpp
+my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o: my_math_dir/CMakeFiles/my_math.dir/flags.make
+my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o: ../my_math_dir/src/division.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o"
+	cd /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/my_math_dir && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/my_math.dir/src/division.cpp.o -c /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/src/division.cpp
 
-my_math_dir/CMakeFiles/my_math.dir/division.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_math.dir/division.cpp.i"
-	cd /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/division.cpp > CMakeFiles/my_math.dir/division.cpp.i
+my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/my_math.dir/src/division.cpp.i"
+	cd /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/src/division.cpp > CMakeFiles/my_math.dir/src/division.cpp.i
 
-my_math_dir/CMakeFiles/my_math.dir/division.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_math.dir/division.cpp.s"
-	cd /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/division.cpp -o CMakeFiles/my_math.dir/division.cpp.s
+my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/my_math.dir/src/division.cpp.s"
+	cd /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/my_math_dir && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/src/division.cpp -o CMakeFiles/my_math.dir/src/division.cpp.s
 
-my_math_dir/CMakeFiles/my_math.dir/division.cpp.o.requires:
+my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o.requires:
 
-.PHONY : my_math_dir/CMakeFiles/my_math.dir/division.cpp.o.requires
+.PHONY : my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o.requires
 
-my_math_dir/CMakeFiles/my_math.dir/division.cpp.o.provides: my_math_dir/CMakeFiles/my_math.dir/division.cpp.o.requires
-	$(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/division.cpp.o.provides.build
-.PHONY : my_math_dir/CMakeFiles/my_math.dir/division.cpp.o.provides
+my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o.provides: my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o.requires
+	$(MAKE) -f my_math_dir/CMakeFiles/my_math.dir/build.make my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o.provides.build
+.PHONY : my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o.provides
 
-my_math_dir/CMakeFiles/my_math.dir/division.cpp.o.provides.build: my_math_dir/CMakeFiles/my_math.dir/division.cpp.o
+my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o.provides.build: my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o
 
 
 # Object files for target my_math
 my_math_OBJECTS = \
-"CMakeFiles/my_math.dir/addition.cpp.o" \
-"CMakeFiles/my_math.dir/division.cpp.o"
+"CMakeFiles/my_math.dir/src/addition.cpp.o" \
+"CMakeFiles/my_math.dir/src/division.cpp.o"
 
 # External object files for target my_math
 my_math_EXTERNAL_OBJECTS =
 
-my_math_dir/libmy_math.a: my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o
-my_math_dir/libmy_math.a: my_math_dir/CMakeFiles/my_math.dir/division.cpp.o
+my_math_dir/libmy_math.a: my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o
+my_math_dir/libmy_math.a: my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o
 my_math_dir/libmy_math.a: my_math_dir/CMakeFiles/my_math.dir/build.make
 my_math_dir/libmy_math.a: my_math_dir/CMakeFiles/my_math.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libmy_math.a"
@@ -126,8 +126,8 @@ my_math_dir/CMakeFiles/my_math.dir/build: my_math_dir/libmy_math.a
 
 .PHONY : my_math_dir/CMakeFiles/my_math.dir/build
 
-my_math_dir/CMakeFiles/my_math.dir/requires: my_math_dir/CMakeFiles/my_math.dir/addition.cpp.o.requires
-my_math_dir/CMakeFiles/my_math.dir/requires: my_math_dir/CMakeFiles/my_math.dir/division.cpp.o.requires
+my_math_dir/CMakeFiles/my_math.dir/requires: my_math_dir/CMakeFiles/my_math.dir/src/addition.cpp.o.requires
+my_math_dir/CMakeFiles/my_math.dir/requires: my_math_dir/CMakeFiles/my_math.dir/src/division.cpp.o.requires
 
 .PHONY : my_math_dir/CMakeFiles/my_math.dir/requires
 

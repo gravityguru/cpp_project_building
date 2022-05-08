@@ -6,7 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/addition.cpp
+../my_math_dir/include/addition.h
 
-/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/division.cpp
+../my_math_dir/include/division.h
+
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/src/addition.cpp
+addition.h
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/src/addition.h
+
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/src/division.cpp
+division.h
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_math_dir/src/division.h
 

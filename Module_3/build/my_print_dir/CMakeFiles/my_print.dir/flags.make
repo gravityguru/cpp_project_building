@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_print_dir/include 
 

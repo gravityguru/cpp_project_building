@@ -3,7 +3,7 @@ cmake_minimum_required(VERSION 3.0.0)
 project(Calculator_project VERSION 1.0.0)
 
 
-# Subdirectory handling approach 1 completed.
+# Subdirectory handling approach.
 
 add_subdirectory(my_math_dir)
 add_subdirectory(my_print_dir)

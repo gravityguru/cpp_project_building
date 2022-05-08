@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_print_dir/print_result.cpp
+../my_print_dir/include/print_result.h
+
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_print_dir/src/print_result.cpp
 iostream
 -
+print_result.h
+/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_3/my_print_dir/src/print_result.h
 

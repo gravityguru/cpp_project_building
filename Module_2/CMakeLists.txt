@@ -6,8 +6,20 @@ project(Calculator_project VERSION 1.0.0)
 # So we create libraries.
 
 # Approach 1
-add_executable(calculator
-main.cpp
+
+# add_executable(calculator
+# main.cpp
+# addition.cpp
+# division.cpp
+# print_result.cpp)
+
+# approach 2
+add_library(my_math
 addition.cpp
-division.cpp
+division.cpp)
+
+add_library(my_print
 print_result.cpp)
+
+add_executable(calculator
+main.cpp)

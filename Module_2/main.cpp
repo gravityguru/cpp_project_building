@@ -6,6 +6,10 @@
 // Run in terminal 
 //g++ main.cpp addition.cpp division.cpp print_result.cpp -o calculator
 // Dummy comment
+// git init
+//git add .
+//git status
+//git commit -m ""
 
 
 main(){

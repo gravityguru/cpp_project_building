@@ -81,95 +81,19 @@ CMakeFiles/calculator.dir/main.cpp.o.provides: CMakeFiles/calculator.dir/main.cp
 CMakeFiles/calculator.dir/main.cpp.o.provides.build: CMakeFiles/calculator.dir/main.cpp.o
 
 
-CMakeFiles/calculator.dir/addition.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/addition.cpp.o: ../addition.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/calculator.dir/addition.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculator.dir/addition.cpp.o -c /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/addition.cpp
-
-CMakeFiles/calculator.dir/addition.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/addition.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/addition.cpp > CMakeFiles/calculator.dir/addition.cpp.i
-
-CMakeFiles/calculator.dir/addition.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/addition.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/addition.cpp -o CMakeFiles/calculator.dir/addition.cpp.s
-
-CMakeFiles/calculator.dir/addition.cpp.o.requires:
-
-.PHONY : CMakeFiles/calculator.dir/addition.cpp.o.requires
-
-CMakeFiles/calculator.dir/addition.cpp.o.provides: CMakeFiles/calculator.dir/addition.cpp.o.requires
-	$(MAKE) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/addition.cpp.o.provides.build
-.PHONY : CMakeFiles/calculator.dir/addition.cpp.o.provides
-
-CMakeFiles/calculator.dir/addition.cpp.o.provides.build: CMakeFiles/calculator.dir/addition.cpp.o
-
-
-CMakeFiles/calculator.dir/division.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/division.cpp.o: ../division.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/calculator.dir/division.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculator.dir/division.cpp.o -c /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/division.cpp
-
-CMakeFiles/calculator.dir/division.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/division.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/division.cpp > CMakeFiles/calculator.dir/division.cpp.i
-
-CMakeFiles/calculator.dir/division.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/division.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/division.cpp -o CMakeFiles/calculator.dir/division.cpp.s
-
-CMakeFiles/calculator.dir/division.cpp.o.requires:
-
-.PHONY : CMakeFiles/calculator.dir/division.cpp.o.requires
-
-CMakeFiles/calculator.dir/division.cpp.o.provides: CMakeFiles/calculator.dir/division.cpp.o.requires
-	$(MAKE) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/division.cpp.o.provides.build
-.PHONY : CMakeFiles/calculator.dir/division.cpp.o.provides
-
-CMakeFiles/calculator.dir/division.cpp.o.provides.build: CMakeFiles/calculator.dir/division.cpp.o
-
-
-CMakeFiles/calculator.dir/print_result.cpp.o: CMakeFiles/calculator.dir/flags.make
-CMakeFiles/calculator.dir/print_result.cpp.o: ../print_result.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/calculator.dir/print_result.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/calculator.dir/print_result.cpp.o -c /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/print_result.cpp
-
-CMakeFiles/calculator.dir/print_result.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/calculator.dir/print_result.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/print_result.cpp > CMakeFiles/calculator.dir/print_result.cpp.i
-
-CMakeFiles/calculator.dir/print_result.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/calculator.dir/print_result.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/print_result.cpp -o CMakeFiles/calculator.dir/print_result.cpp.s
-
-CMakeFiles/calculator.dir/print_result.cpp.o.requires:
-
-.PHONY : CMakeFiles/calculator.dir/print_result.cpp.o.requires
-
-CMakeFiles/calculator.dir/print_result.cpp.o.provides: CMakeFiles/calculator.dir/print_result.cpp.o.requires
-	$(MAKE) -f CMakeFiles/calculator.dir/build.make CMakeFiles/calculator.dir/print_result.cpp.o.provides.build
-.PHONY : CMakeFiles/calculator.dir/print_result.cpp.o.provides
-
-CMakeFiles/calculator.dir/print_result.cpp.o.provides.build: CMakeFiles/calculator.dir/print_result.cpp.o
-
-
 # Object files for target calculator
 calculator_OBJECTS = \
-"CMakeFiles/calculator.dir/main.cpp.o" \
-"CMakeFiles/calculator.dir/addition.cpp.o" \
-"CMakeFiles/calculator.dir/division.cpp.o" \
-"CMakeFiles/calculator.dir/print_result.cpp.o"
+"CMakeFiles/calculator.dir/main.cpp.o"
 
 # External object files for target calculator
 calculator_EXTERNAL_OBJECTS =
 
 calculator: CMakeFiles/calculator.dir/main.cpp.o
-calculator: CMakeFiles/calculator.dir/addition.cpp.o
-calculator: CMakeFiles/calculator.dir/division.cpp.o
-calculator: CMakeFiles/calculator.dir/print_result.cpp.o
 calculator: CMakeFiles/calculator.dir/build.make
+calculator: libmy_math.a
+calculator: libmy_print.a
 calculator: CMakeFiles/calculator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable calculator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable calculator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/calculator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -178,9 +102,6 @@ CMakeFiles/calculator.dir/build: calculator
 .PHONY : CMakeFiles/calculator.dir/build
 
 CMakeFiles/calculator.dir/requires: CMakeFiles/calculator.dir/main.cpp.o.requires
-CMakeFiles/calculator.dir/requires: CMakeFiles/calculator.dir/addition.cpp.o.requires
-CMakeFiles/calculator.dir/requires: CMakeFiles/calculator.dir/division.cpp.o.requires
-CMakeFiles/calculator.dir/requires: CMakeFiles/calculator.dir/print_result.cpp.o.requires
 
 .PHONY : CMakeFiles/calculator.dir/requires
 

@@ -6,11 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/addition.cpp
-
 /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/addition.h
-
-/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/division.cpp
 
 /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/division.h
 
@@ -23,10 +19,6 @@ division.h
 /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/division.h
 print_result.h
 /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/print_result.h
-
-/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/print_result.cpp
-iostream
--
 
 /home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/print_result.h
 

@@ -193,6 +193,12 @@ Project_BINARY_DIR:STATIC=/home/guru/Desktop/cpp_soft_building/cpp_project_build
 //Value Computed by CMake
 Project_SOURCE_DIR:STATIC=/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2
 
+//Dependencies for target
+my_math_LIB_DEPENDS:STATIC=
+
+//Dependencies for target
+my_print_LIB_DEPENDS:STATIC=
+
 
 ########################
 # INTERNAL cache entries

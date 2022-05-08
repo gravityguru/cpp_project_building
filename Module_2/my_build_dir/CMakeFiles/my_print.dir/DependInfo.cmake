@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/main.cpp" "/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles/calculator.dir/main.cpp.o"
+  "/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/print_result.cpp" "/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles/my_print.dir/print_result.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -14,8 +14,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles/my_math.dir/DependInfo.cmake"
-  "/home/guru/Desktop/cpp_soft_building/cpp_project_building/Module_2/my_build_dir/CMakeFiles/my_print.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.
